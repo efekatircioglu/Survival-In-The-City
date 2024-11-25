@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=CommandWords
+comment0.text=\n\ \n\ This\ class\ holds\ an\ enumeration\ of\ all\ command\ words\ known\ to\ the\ game.\n\ It\ is\ used\ to\ recognise\ commands\ as\ they\ are\ typed\ in.\n\ \n\ @author\ \ Michael\ K\u00F6lling,\ David\ J.\ Barnes,\ and\ Efe\ Katircioglu\n\ @version\ 2024.25.11\n
+comment1.params=
+comment1.target=CommandWords()
+comment1.text=\n\ Constructor\ -\ initialise\ the\ command\ words.\n
+comment2.params=aString
+comment2.target=boolean\ isCommand(java.lang.String)
+comment2.text=\n\ Check\ whether\ a\ given\ String\ is\ a\ valid\ command\ word.\ \n\ @return\ true\ if\ it\ is,\ false\ if\ it\ isn't.\n
+comment3.params=secondWord
+comment3.target=boolean\ isValidSecondWord(java.lang.String)
+comment3.text=\n\ check\ if\ the\ second\ word\ is\ a\ valid\ word\n
+comment4.params=
+comment4.target=void\ showAll()
+comment4.text=\n\ Print\ all\ valid\ commands\ to\ System.out.\n
+numComments=5

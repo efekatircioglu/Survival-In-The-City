@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.target=Stranger
+comment0.text=\n\ Stranger\ class\ for\ the\ game\n\ \n\ the\ stranger\ walks\ between\ some\ rooms.\n\ we\ can\ also\ trade\ items\ with\ him.\n\ There\ are\ multiple\ trading\ options\ which\ is\ depended\ to\ stranger's\ location\n\ \n\ @author\ \ Michael\ K\u00F6lling,\ David\ J.\ Barnes,\ and\ Efe\ Katircioglu\n\ @version\ 2024.25.11\n
+comment1.params=game\ gas_station\ residential_building
+comment1.target=Stranger(Game,\ Room,\ Room)
+comment1.text=\n\ Constructor\ for\ objects\ of\ class\ Stranger\n
+comment2.params=
+comment2.target=void\ strangerMovement()
+comment2.text=\n\ A\ method\ to\ make\ stranger\ walk.\n\ When\ we\ walk\ through\ rooms\ 3\ times,\ the\ stranger\ walks\ to\ another\ room.\n
+comment3.params=
+comment3.target=void\ move()
+comment3.text=\n\ helper\ method\ for\ strangerMovement.\ I\ clarified\ which\ rooms\n\ the\ stranger\ should\ go\n
+comment4.params=inventory
+comment4.target=void\ tradeItems(Inventory)
+comment4.text=\n\ a\ method\ to\ trade\ items\ with\ stranger\n\ if\ we\ give\ him\ knife\ and\ medkit\ in\ gas\ station,\ he\ gives\ us\ gasoline\n\ if\ we\ give\ him\ sandwich\ and\ water\ bottle\ in\ residential\ building,\n\ he\ gives\ us\ car\ engine\n\ \n\ We\ need\ car\ engine\ and\ gasoline\ to\ finish\ the\ game\n
+comment5.params=
+comment5.target=Room\ getStrangerRoom()
+comment5.text=\n\ helper\ method\ to\ get\ which\ room\ the\ stranger\ is\n\ as\ a\ Room\n
+comment6.params=
+comment6.target=boolean\ isStrangerInGasStation()
+comment6.text=\n\ helper\ method\ to\ check\ if\ the\ stranger\ is\ in\ gas\ station\ or\ not\n
+comment7.params=
+comment7.target=boolean\ isStrangerInResidentialBuilding()
+comment7.text=\n\ helper\ method\ to\ check\ if\ the\ stranger\ is\ in\ residential\ building\ or\ not\n
+numComments=8
